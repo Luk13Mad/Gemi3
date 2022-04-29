@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-rust"]
+
+[project]
+name = "Gemi3"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Rust"
+]
+requires-python = ">=3.8"
+dependencies = ["numpy","pandas","scikit-learn","statsmodels"]

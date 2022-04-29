@@ -1,0 +1,10 @@
+/target
+.idea
+Gemi3/.idea
+.DS_Store
+Gemi3/.idea/
+Gemi3/__pycache__/
+run.py
+build/
+dist/
+Gemi3.egg-info/
