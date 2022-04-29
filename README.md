@@ -5,11 +5,11 @@ The package provides out-of-the-box analysis solutions and graphics to illustrat
 The Python interface allows integration into existing processing pipelines and also offers a high level of customisability.</br> 
 The Rust core enables extremely fast execution and scalability with HPC clusters.</br>
 
-#Usage
+# Usage
 Please refer to the example in the `example_run` directory.</br>
 Example input data is also provided.
 
-#Installation
+# Installation
 
 1. Clone this repository</br>
 2. Change directory to the downloaded repo</br>
