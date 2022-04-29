@@ -5,9 +5,10 @@ import Gemi3.Model1 as md1
 import Gemi3.Score as sc
 
 # Load data
-#LFC table can be generated with g3datahandling.calc_observed_LFC()
-LFC_table = "~/Desktop/rust_projects/Gemi3/example_run/LFC_table_notnan_Zhou.csv"
-annotation_table = "~/Desktop/rust_projects/Gemi3/example_run/annotation_table_Zhou.csv"
+# LFC table can be generated with g3datahandling.calc_observed_LFC()
+# For explanation how to obtain LFC table look into example_run/Zhou_data_handling.py
+LFC_table = "~Gemi3/example_run/LFC_table_notnan_Zhou.csv"
+annotation_table = "~Gemi3/example_run/annotation_table_Zhou.csv"
 samples = ["OVCAR8-ADR"]  # column name with log2 fold changes in LFC_table
 
 # Run g3datahandling
@@ -22,7 +23,10 @@ It may take a while to find the right initial parameters.
 A tip is to look at the values of mymodel after the convergence failed. Setting the parameters to the actual values may
 help to get the right dimensions and differences between the parameters (example: prio_tau_x = 1/np.std(mymodel.x)).
 '''
-mymodel = md1.Model1(mydata,["dummyguide1","dummyguide2"],verbose=True,force=False,
+mymodel = md1.Model1(mydata,
+                     ["dummyguide1","dummyguide2"], #setting the names of the control guides used for initialization
+                     verbose=True,
+                     force=False, #flag if MAX_ITERATIONS should be performed regardless of behaviour of MAE
                      prio_tau_x=5.0, prio_tau_xx=5.0,
                      prio_tau_r=10.0, prio_tau_rr=10.0,
                      prio_tau_y=10.0, prio_tau_yy=10.0,
@@ -37,6 +41,8 @@ mymodel = md1.Model1(mydata,["dummyguide1","dummyguide2"],verbose=True,force=Fal
 mymodel.prime()
 
 # Inference using CAVI implemented in rust
+# Be very careful that you use the rsCAVI
+# Don't use the pyCAVI, there are mistakes.
 mymodel.start_inference_rust()
 
 # Compute scores
@@ -47,7 +53,11 @@ mymodel.start_inference_rust()
 - all data frames and plots are automatically saved in the folder 'Output'
 '''
 
-scores = sc.Score(model=mymodel, nc_genes=['CDK4'], pc_genes="EGFR",
-                  pc_weight=0.5, verbose=True,plotting=True)
+scores = sc.Score(model=mymodel,
+                  nc_genes=['CDK4'], #setting negative control for null distribution
+                  pc_genes="EGFR", #setting positive control, failure to specify this results in sensitive scores=0
+                  pc_weight=0.5,
+                  verbose=True,
+                  plotting=True) #set flag if plots should be generated
 
 

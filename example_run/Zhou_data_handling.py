@@ -5,7 +5,7 @@
    (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE154112)
    Example for GSM4664050: https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR12185790
 
-2. Convert all SRA files into FASTQ files by using the fastq-dump command from the SRA Toolkit on each SRA file
+2. Convert all SRA files into FASTQ files e.g. by using the fastq-dump command from the SRA Toolkit on each SRA file
    (for example: sratoolkit.2.11.1-win64)
 
 3. Merge all FASTQ files into one large FASTQ file (~33 GB)
@@ -19,7 +19,9 @@
    The column 'BCcounts' contains the raw counts of every gene triple.
    As the keys and BCcounts are in different orders in every file, they need to be sorted and merged into one file.
    Therefore, the columns 'key' and 'BCcounts' need to be renamed in each file so that they are not redundant.
-   We create a new file 'counts_empty.csv' that has one column 'key' with strings from 1_1_1 to 32_32_32 (32768 rows).
+   We create a new object 'counts_empty' that has one column 'key' with strings from 1_1_1 to 32_32_32 (32768 rows).
+
+For further details please refer to the publication and references therein.
 '''
 
 import pandas as pd
@@ -150,9 +152,9 @@ counts_renamed.to_csv("/home/l457h/counts_ordered.csv", sep="\t", index=False)
 '''
 
 # Load data frames
-raw_names = pd.read_csv("C://Gemi//Input//raw_names.csv", sep=";", index_col=0)
-barcode_list = pd.read_csv("C://Gemi//Input//barcode_list.csv", sep=",", header=None, names=["guide", "number", "gene"])
-LFC_raw_counts = pd.read_csv("C://Gemi//Input//LFC_raw_counts.csv", sep="\t")
+raw_names = pd.read_csv("~/raw_names.csv", sep=";", index_col=0)
+barcode_list = pd.read_csv("~/barcode_list.csv", sep=",", header=None, names=["guide", "number", "gene"])
+LFC_raw_counts = pd.read_csv("~/LFC_raw_counts.csv", sep="\t")
 
 raw_names[["guide_1", "guide_2", "guide_3", "rowname"]] = ""                                    # add four new columns
 
