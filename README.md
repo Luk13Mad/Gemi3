@@ -3,7 +3,8 @@
 `Gemi3` is a Python package with a Rust core used for the analysis of 3D combinatorial CRISPR screens. </br>
 The package provides out-of-the-box analysis solutions and graphics to illustrate the results.</br>
 The Python interface allows integration into existing processing pipelines and also offers a high level of customisability.</br> 
-The Rust core enables extremely fast execution and scalability with HPC clusters.</br>
+The Rust core enables extremely fast execution and scalability with HPC clusters.</br> 
+**Gemi3 is still under development. A release to PyPI is planned.**
 
 # Usage
 Please refer to the example in the `example_run` directory.</br>
