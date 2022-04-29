@@ -30,3 +30,7 @@ You can also use the following BibLaTeX entry:</br>
 ```
 TODO
 ```
+
+# Contact
+
+Write a mail to `lukas.madenach{at}kitz-heidelberg.de` or just raise an issue.
