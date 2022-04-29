@@ -15,9 +15,9 @@ jobs:
 
       - uses: actions-rs/toolchain@v1
           with:
-            profile: minimal
-            toolchain: stable
-            override: true
+          profile: minimal
+          toolchain: stable
+          override: true
 
       - name: Build wheels
           run: |
