@@ -1,0 +1,2555 @@
+Extracting references for speed up.
+Extracting x values.
+Extracting y values.
+Extracting r values.
+Extracting s values.
+Extracting tau values.
+Extracting mae values.
+Updating x values
+Updating xx values
+Updating y values
+Updating yy values
+Updating r values
+Updating rr values
+Updating s values
+Updating ss values
+Updating tau values
+Updating MAE value
+Iteration 1 complete.
+MAE at 0.05144708893769298.
+Updating x values
+Updating xx values
+Updating y values
+Updating yy values
+Updating r values
+Updating rr values
+Updating s values
+Updating ss values
+Updating tau values
+Updating MAE value
+Iteration 2 complete.
+MAE at 0.05081377520212013.
+Breaking CAVI: MAE_THRESHOLD reached.
+Loading LFC table from file. <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+Loading annotation table from file. <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+Merging annotation with LFC table from file. <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+Removing rows where only two different genes are targeted
+Removing 4250 rows.
+Building hashtable for D
+Building hashtable for x and xx
+Building hashtable for y and yy
+Building hashtable for r and rr
+Building hashtable for s and ss
+Building hashtable for tau
+Starting MAE at 0.1774970167359368
+Handoff to Rust. <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+Result returned from Rust. Checking... <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+Check completed. Setting values. <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneDNMT1pgeneERBB2
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneDNMT1pgeneMAP2K1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneDNMT1pgenePOLA1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneDNMT1pgeneFGF2
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneDNMT1pgeneHDAC1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneDNMT1pgeneIKBKB
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneDNMT1pgeneMTOR
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneDNMT1pgenePIK3C3
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneDNMT1pgeneTGFB1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneDNMT1pgeneTOP1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneDNMT1pgeneTUBA1A
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneDNMT1pgeneTYMS
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneERBB2pgeneDNMT1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneERBB2pgeneMAP2K1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneERBB2pgenePOLA1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneERBB2pgeneFGF2
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneERBB2pgeneHDAC1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneERBB2pgeneIKBKB
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneERBB2pgeneMTOR
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneERBB2pgenePIK3C3
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneERBB2pgeneTGFB1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneERBB2pgeneTOP1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneERBB2pgeneTUBA1A
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneERBB2pgeneTYMS
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 7 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMAP2K1pgeneDNMT1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 7 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMAP2K1pgeneERBB2
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 8 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 7 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMAP2K1pgenePOLA1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 11 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 7 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMAP2K1pgeneFGF2
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 7 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMAP2K1pgeneHDAC1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 7 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMAP2K1pgeneIKBKB
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 7 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMAP2K1pgeneMTOR
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 11 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 7 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMAP2K1pgenePIK3C3
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 7 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMAP2K1pgeneTGFB1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 11 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 7 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMAP2K1pgeneTOP1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 7 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMAP2K1pgeneTUBA1A
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 7 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMAP2K1pgeneTYMS
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneFGF2pgeneDNMT1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1', 'DNMT1_EGFR_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneFGF2pgeneERBB2
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1', 'DNMT1_EGFR_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneFGF2pgeneMAP2K1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1', 'DNMT1_EGFR_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneFGF2pgenePOLA1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1', 'DNMT1_EGFR_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneFGF2pgeneHDAC1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1', 'DNMT1_EGFR_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneFGF2pgeneIKBKB
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1', 'DNMT1_EGFR_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneFGF2pgeneMTOR
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1', 'DNMT1_EGFR_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneFGF2pgenePIK3C3
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1', 'DNMT1_EGFR_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneFGF2pgeneTGFB1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1', 'DNMT1_EGFR_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneFGF2pgeneTOP1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1', 'DNMT1_EGFR_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneFGF2pgeneTUBA1A
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1', 'DNMT1_EGFR_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneFGF2pgeneTYMS
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1', 'DNMT1_EGFR_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 27 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 3 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneHDAC1pgeneDNMT1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 27 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 3 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneHDAC1pgeneERBB2
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 27 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 3 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneHDAC1pgeneMAP2K1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 27 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 3 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneHDAC1pgenePOLA1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 27 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 3 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneHDAC1pgeneFGF2
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 27 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 3 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneHDAC1pgeneIKBKB
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 27 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 3 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneHDAC1pgeneMTOR
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 27 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 3 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneHDAC1pgenePIK3C3
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 27 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 3 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneHDAC1pgeneTGFB1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 27 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 3 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneHDAC1pgeneTOP1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 27 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 3 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneHDAC1pgeneTUBA1A
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 27 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 3 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneHDAC1pgeneTYMS
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 10 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 12 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 10 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 12 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 12 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMTORpgeneDNMT1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMTORpgeneERBB2
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMTORpgeneMAP2K1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMTORpgenePOLA1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMTORpgeneFGF2
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMTORpgeneHDAC1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMTORpgeneIKBKB
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMTORpgenePIK3C3
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMTORpgeneTGFB1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMTORpgeneTOP1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMTORpgeneTUBA1A
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneMTORpgeneTYMS
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngenePIK3C3pgeneDNMT1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngenePIK3C3pgeneERBB2
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngenePIK3C3pgeneMAP2K1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngenePIK3C3pgenePOLA1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngenePIK3C3pgeneFGF2
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 4 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngenePIK3C3pgeneHDAC1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngenePIK3C3pgeneIKBKB
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngenePIK3C3pgeneMTOR
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngenePIK3C3pgeneTGFB1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngenePIK3C3pgeneTOP1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngenePIK3C3pgeneTUBA1A
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 5 steps were required by the best fit of EM to converge.
+Best GMM consists of 3 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngenePIK3C3pgeneTYMS
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneTGFB1pgeneDNMT1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneTGFB1pgeneERBB2
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneTGFB1pgeneMAP2K1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneTGFB1pgenePOLA1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneTGFB1pgeneFGF2
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneTGFB1pgeneHDAC1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneTGFB1pgeneIKBKB
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneTGFB1pgeneMTOR
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneTGFB1pgenePIK3C3
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneTGFB1pgeneTOP1
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneTGFB1pgeneTUBA1A
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 6 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Scores were successfully calculated.
+######Printing results for : ngeneTGFB1pgeneTYMS
+#strong:
+set()
+#sens_lethality:
+set()
+#sens_recovery:
+{'CDK4_MAP2K1_POLA1'}
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTOP1pgeneDNMT1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTOP1pgeneERBB2
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTOP1pgeneMAP2K1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTOP1pgenePOLA1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 10 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTOP1pgeneFGF2
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTOP1pgeneHDAC1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTOP1pgeneIKBKB
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTOP1pgeneMTOR
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTOP1pgenePIK3C3
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTOP1pgeneTGFB1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTOP1pgeneTUBA1A
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 2 Gaussians.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTOP1pgeneTYMS
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTYMSpgeneDNMT1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTYMSpgeneERBB2
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTYMSpgeneMAP2K1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTYMSpgenePOLA1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTYMSpgeneFGF2
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTYMSpgeneHDAC1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTYMSpgeneIKBKB
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTYMSpgeneMTOR
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTYMSpgenePIK3C3
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTYMSpgeneTGFB1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTYMSpgeneTOP1
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########
+Model1 was successfully updated.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Gaussian Mixture Model converged.
+According to the Bayesian information criterion, 2 steps were required by the best fit of EM to converge.
+Best GMM consists of 1 Gaussian.
+Scores were successfully calculated.
+######Printing results for : ngeneTYMSpgeneTUBA1A
+#strong:
+{'DNMT1_ERBB2_POLA1'}
+#sens_lethality:
+set()
+#sens_recovery:
+set()
+#########

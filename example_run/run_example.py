@@ -4,6 +4,7 @@ import Gemi3.g3datahandling as g3d
 import Gemi3.Model1 as md1
 import Gemi3.Score as sc
 import numpy as np
+import itertools as itt
 
 np.random.seed(13)
 # Load data
@@ -25,15 +26,16 @@ It may take a while to find the right initial parameters.
 A tip is to look at the values of mymodel after the convergence failed. Setting the parameters to the actual values may
 help to get the right dimensions and differences between the parameters (example: prio_tau_x = 1/np.std(mymodel.x)).
 '''
+
+#load data into model and intialize with control guides
 mymodel = md1.Model1(mydata,
                      ["dummyguide1","dummyguide2"], #setting the names of the control guides used for initialization
-                     #["dummyguide2"],
                      verbose=True,
                      force=False, #flag if MAX_ITERATIONS should be performed regardless of behaviour of MAE
-                     prio_tau_x=5.0, prio_tau_xx=5.0, #5 5
-                     prio_tau_r=5.0, prio_tau_rr=5.0, #5 5
-                     prio_tau_y=2.0, prio_tau_yy=2.0, #2 2
-                     prio_tau_s=1.0, prio_tau_ss=1.0, #1 1
+                     prio_tau_x=5.0, prio_tau_xx=5.0,
+                     prio_tau_r=5.0, prio_tau_rr=5.0,
+                     prio_tau_y=2.0, prio_tau_yy=2.0,
+                     prio_tau_s=1.0, prio_tau_ss=1.0,
                      prio_mu_x=1.0, prio_mu_xx=1.0,
                      prio_mu_y=0.0, prio_mu_yy=0.0,
                      prio_mu_r=0.0, prio_mu_rr=0.0,
@@ -56,16 +58,10 @@ mymodel.start_inference_rust()
 - all data frames and plots are automatically saved in the folder 'Output'
 '''
 
-scores = sc.Score(model=mymodel,
-                  nc_genes=['CDK4'], #setting negative control for null distribution
-                  pc_genes="EGFR", #setting positive control, failure to specify this results in sensitive scores=0
-                  pc_weight=0.5,
-                  verbose=True,
-                  plotting=True) #set flag if plots should be generated
-
 
 ###########
 def contains_one_verified(triple):
+    '''Helper function'''
     if "DNMT1" in triple and "POLA1" in triple and "EGFR" in triple:
         return True
     elif "DNMT1" in triple and "POLA1" in triple and "ERBB2" in triple:
@@ -75,14 +71,19 @@ def contains_one_verified(triple):
     else:
         return False
 
-#
-for ngene,pgene in itt.permutations(['DNMT1','ERBB2','MAP2K1', 'POLA1','FGF2', 'HDAC1','IKBKB', 'MTOR', 'PIK3C3', 'TGFB1','TOP1', 'TUBA1A', 'TYMS'],2):
+'''
+loop to check all combinations possible to use available genes as 
+positive control or negative control
+necessary because the screen was not setup with Gemi3 in mind and therefor does not contain the needed
+controls
+'''
+for ngene,pgene in itt.permutations(['DNMT1','ERBB2','MAP2K1','POLA1','FGF2', 'HDAC1','IKBKB', 'MTOR', 'PIK3C3', 'TGFB1','TOP1', 'TUBA1A', 'TYMS'],2):
     try:
         scores = sc.Score(model=mymodel,
                         nc_genes=ngene, #setting negative control for null distribution
                         pc_genes=pgene, #setting positive control, failure to specify this results in sensitive scores=0
-                        pc_weight=0.0,
-                        verbose=False,
+                        pc_weight=0.0, # pc_weight set to 0, since there is no tru positive control present
+                        verbose=True,
                         plotting=False)
         strong = scores.score_result[0]
         tri_strong = strong.loc[strong.loc[:,"P-value_OVCAR8-ADR"] <= 0.05,:].index
