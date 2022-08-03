@@ -1,3 +1,16 @@
+##########################################################################################
+This is the output from the script run_example.py used in combination with
+LFC_table_notnan_Zhou.csv and annotation_table_Zhou.csv .
+Output re-identifies the known interactions CDK4+MAP2K1+POLA1, DNMT1+POLA1+EGFR and
+DNMT1+POLA1+ERBB2.
+
+
+
+##########################################################################################
+
+
+
+
 Extracting references for speed up.
 Extracting x values.
 Extracting y values.
