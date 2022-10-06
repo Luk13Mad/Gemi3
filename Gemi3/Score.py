@@ -422,16 +422,24 @@ class Score(object):
     def fdr(self, pvalue):
         '''
         Function for calculating adjusted P-values (FDR) by using the method of Benjamini and Hochberg.
-        For a better performance, the P-values are sorted before calculating the FDRs.
+        P-values are sorted before calculating the FDRs.
         :param pvalue: Numpy array of P-values of one score
         :return: Numpy array of adjusted P-values of one score
         '''
         pvalue_sort = np.sort(pvalue, axis=None)                                # returns the flattened array, sorted
         pvalue_argsort = np.argsort(pvalue, axis=None)                          # returns original indices of array
+        mask = np.isfinite(pvalue_sort)                                         # mask for pvalues which are not NAN
+
         # Benjamini/Hochberg (non-negative)
-        fdr_bh = multi.multipletests(pvalue_sort, alpha=0.05, method='fdr_bh', is_sorted=True, returnsorted=False)
-        fdr_bh_sorted = np.take(fdr_bh[1], np.zeros(np.size(pvalue_argsort), dtype=int) + pvalue_argsort)
-        return fdr_bh_sorted
+        fdr_bh = multi.multipletests(pvalue_sort[mask], alpha=0.05, method='fdr_bh', is_sorted=True)
+
+        fdr_bh_sorted = np.empty_like(pvalue)  # empty array to put back in the NAN
+        fdr_bh_sorted_out = np.empty_like(pvalue)  # empty array to return
+        fdr_bh_sorted.fill(np.nan)
+        fdr_bh_sorted[mask] = fdr_bh[1]
+
+        fdr_bh_sorted_out[pvalue_argsort] = fdr_bh_sorted  # return fdr to original order
+        return fdr_bh_sorted_out
 
 
     def dataframe(self, score, pvalue, fdr, cell_list, line, names):
