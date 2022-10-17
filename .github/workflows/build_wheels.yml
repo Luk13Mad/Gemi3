@@ -11,17 +11,17 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     env:
-      CIBW_BEFORE_ALL_LINUX: "curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain stable -y"
+      CIBW_BEFORE_ALL_LINUX: "curl -sSf https://sh.rustup.rs | sh "
     steps:
       - uses: actions/checkout@v3
 
       - uses: actions/setup-python@v3
       
       - name: Install cibuildwheel
-        run: python -m pip install cibuildwheel==2.11.1
+        run: python -m pip install cibuildwheel wheel setuptools setuptools-rust
         
       - name: Update packages
-        run : python -m pip install --upgrade wheel setuptools setuptools-rust
+        run : python -m pip install --upgrade cibuildwheel wheel setuptools setuptools-rust
         
       - uses: actions-rs/toolchain@v1
         with:
