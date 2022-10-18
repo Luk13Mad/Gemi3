@@ -105,7 +105,7 @@ jobs:
 
       - name: Upload to TestPyPI
         run: |
-          python3 -m twine upload dist
+          python3 -m twine upload dist/*
         env:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.TWINE_TEST_TOKEN }}
