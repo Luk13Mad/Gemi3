@@ -36,6 +36,7 @@ jobs:
 
       - uses: actions/upload-artifact@v3
         with:
+          name: wheel
           path: ./wheelhouse/*.whl
           
   publish:
@@ -45,7 +46,8 @@ jobs:
     steps:
       - uses: actions/download-artifact@v3
         with:
-          path: ./wheelhouse/*
+          name: wheel
+          path: ./wheelhouse
 
       - uses: actions/setup-python@v3
 
