@@ -13,6 +13,7 @@ jobs:
     env:
       CIBW_BEFORE_ALL_LINUX: "curl -sSf https://sh.rustup.rs | sh -s -- --default-toolchain stable -y"
       CIBW_ENVIRONMENT: 'PATH="$PATH:$HOME/.cargo/bin"'
+      CIBW_SKIP: "pp39-*"
       
     steps:
       - uses: actions/checkout@v3
