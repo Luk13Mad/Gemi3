@@ -11,7 +11,7 @@ jobs:
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     env:
-      CIBW_BEFORE_ALL_LINUX: "curl -sSf https://sh.rustup.rs | sh -y"
+      CIBW_BEFORE_ALL_LINUX: "curl -sSf https://sh.rustup.rs | sh -s -- --default-toolchain stable -y"
     steps:
       - uses: actions/checkout@v3
 
