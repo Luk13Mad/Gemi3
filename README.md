@@ -4,13 +4,19 @@
 The package provides out-of-the-box analysis solutions and graphics to illustrate the results.</br>
 The Python interface allows integration into existing processing pipelines and also offers a high level of customisability.</br> 
 The Rust core enables extremely fast execution and scalability with HPC clusters.</br> 
-**A release to PyPI is planned.**
+
 
 # Usage
 Please refer to the example in the `example_run` directory.</br>
 Example input data is also provided.
 
 # Installation
+
+```
+pip install Gemi3
+```
+
+**OR**
 
 1. Clone this repository</br>
 2. Change directory to the downloaded repo</br>
