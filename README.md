@@ -18,12 +18,18 @@ pip install Gemi3
 
 **OR**
 
+For this method make sure you have the rust compiler available on your machine.
+If not follow the instructions here:
+```
+https://www.rust-lang.org/tools/install
+```
+
 1. Clone this repository</br>
 2. Change directory to the downloaded repo</br>
 3. Run the following command</br>
 ```
 python setup.py install
-```
+```  
 
 # Citation
 To cite `Gemi3` in your publications, please use: </br>
